@@ -3,7 +3,7 @@
   <h1 align="center">UniSafe</h1>
 
   <p align="center">
-    UniSafe is designed to improve the safety of other students on-campus.
+    UniSafe is designed to improve the safety of students on-campus.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
