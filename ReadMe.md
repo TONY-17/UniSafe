@@ -17,17 +17,13 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## ABOUT 🏗
 
 UniSafe aims to add a new dimension of safety and security by reducing emergency response time during an emergency situation on campus. The app instantly notifies campus security of a potential threat and broadcasts the user's specific position and personal info back to security. Under exceptional situations where there is no cellular and Wi-Fi coverage, Emergency SOS via nearby devices can assist students in connecting with campus security. UniSafe tries to request assistance on your behalf through nearby devices. Additionally, it has features that let students request for an escorting service in the evenings and a Safety Newsfeed where they can get and share safety-related news and alerts with their groups (Campuses). The system contains an admin side that is outfitted with tools to manage personnel better, oversee managed companies, and analyze data to boost security effectiveness.
 
-## Screenshots 📷
-<img src="/arts/splash-screen.png" width="260"> &emsp;<img src="/arts/market-screen.png" width="260"> &emsp;<img src="/arts/market-screen-dark.png" width="260">
+## SCREENSHOTS 📷
+<img src="/ddevices.png">
 
-## Contribution 🙌
+## CONTRIBUTION 🙌
 All contributions are welcome! Feel free to jump to the issues and pick one for yourself! Please write a comment inside of the issue before you start working.
 
-## Contributors 👏
-<!--* [abdalla19977](https://github.com/abdalla19977)-->
