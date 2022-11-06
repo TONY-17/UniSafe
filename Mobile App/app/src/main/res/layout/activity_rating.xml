@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driverApp.rating.Rating">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:behavior_hideable="false"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/MyCardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:strokeColor="@color/light"
+            app:strokeWidth="1dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <TextView
+
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/w_bk"
+                    android:text="Ride completed"
+                    android:textColor="@color/primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/light"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieAnimationView"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view5"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/rating_ui" />
+
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/w_bk"
+                    android:text="How satisfied are you with the experience?"
+                    android:textColor="@color/primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/white"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    app:justifyContent="space_evenly"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        app:toggle_text="  1  "
+                        android:fontFamily="@font/w_bk"
+                        app:toggle_textColor="@color/primary"
+                        app:toggle_selectedBackgroundColor="@color/primary"
+                        app:toggle_backgroundColor="@color/light"
+                        />
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        app:toggle_text="  2  "
+                        android:fontFamily="@font/w_bk"
+                        app:toggle_textColor="@color/primary"
+                        app:toggle_selectedBackgroundColor="@color/primary"
+                        app:toggle_backgroundColor="@color/light"/>
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        app:toggle_text="  3  "
+                        android:fontFamily="@font/w_bk"
+                        app:toggle_textColor="@color/primary"
+                        app:toggle_selectedBackgroundColor="@color/primary"
+                        app:toggle_backgroundColor="@color/light"/>
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        app:toggle_text="  4  "
+                        android:fontFamily="@font/w_bk"
+                        app:toggle_textColor="@color/primary"
+                        app:toggle_selectedBackgroundColor="@color/primary"
+                        app:toggle_backgroundColor="@color/light"/>
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btn5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        app:toggle_text="  5  "
+                        android:fontFamily="@font/w_bk"
+                        app:toggle_textColor="@color/primary"
+                        app:toggle_selectedBackgroundColor="@color/primary"
+                        app:toggle_backgroundColor="@color/light"/>
+
+
+                </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout6"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/w_bk"
+                    app:boxBackgroundColor="@color/light"
+
+                    app:boxCornerRadiusBottomEnd="8dp"
+                    app:boxCornerRadiusBottomStart="8dp"
+                    app:boxCornerRadiusTopEnd="8dp"
+                    app:boxStrokeColor="@color/primary"
+                    app:prefixTextColor="@color/primary"
+                    app:boxCornerRadiusTopStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/time">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/reviewComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:fontFamily="@font/w_bk"
+                        android:gravity="start"
+                        android:hint="Additional comments..."
+                        android:inputType="textMultiLine" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/light"
+                    app:layout_constraintBottom_toTopOf="@+id/submitReview"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/submitReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/primary"
+                    android:elevation="0dp"
+                    android:text="submit"
+                    app:cornerRadius="8dp"
+                    app:elevation="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+                    app:layout_constraintVertical_bias="1.0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView37"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_directions_walk_24"
+            app:tint="@color/white" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+    <TextView
+        android:id="@+id/pickUpLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/w_bk"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view22"
+        app:layout_constraintStart_toEndOf="@+id/materialCardView37" />
+
+    <TextView
+        android:id="@+id/destinationLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/w_bk"
+        android:textColor="@color/primary"
+        android:singleLine="true"
+        android:maxWidth="165dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+
+        app:layout_constraintStart_toStartOf="@+id/pickUpLocation"
+        app:layout_constraintTop_toBottomOf="@+id/view22" />
+
+    <TextView
+        android:id="@+id/dateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/w_bk"
+
+        android:textColor="@color/mapbox_plugins_green"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pickUpLocation"
+        app:layout_constraintEnd_toEndOf="@+id/destinationLocation"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pickUpLocation"
+        app:layout_constraintTop_toTopOf="@+id/pickUpLocation"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/materialCardView37"
+        app:layout_constraintStart_toEndOf="@+id/materialCardView37"
+        app:layout_constraintTop_toTopOf="@+id/materialCardView37" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/tripInit"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="@color/light"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/destinationLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pickUpLocation"
+        app:strokeColor="@color/primary"
+        app:strokeWidth="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/w_bk"
+                android:text="START"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView37" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786102208481",
+    "project_id": "escortme-a5232",
+    "storage_bucket": "escortme-a5232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786102208481:android:8c62b838b899aef92534a0",
+        "android_client_info": {
+          "package_name": "com.example.escortme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786102208481-3v8jmj7f2mr1el2ndttknch4a7qu2nqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAYNNLigcpNuKlXxpG6Hs5j1rwVwFnbiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786102208481-3v8jmj7f2mr1el2ndttknch4a7qu2nqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

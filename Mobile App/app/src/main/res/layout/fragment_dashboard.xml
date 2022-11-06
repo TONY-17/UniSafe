@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".studentApp.ui.dashboard.DashboardFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView40"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        app:cardBackgroundColor="@color/light"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/people_illustration"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:elevation="32dp"
+                android:fontFamily="@font/w_bk"
+                android:text="Newsfeed "
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="48dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/time">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/filterNews"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="8dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/orgLogo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center"
+                            android:scaleType="centerCrop" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/w_lt"
+                        android:padding="8dp"
+                        android:text="@string/keep_yourself_and_fellow_students_safe_npost_safety_related_information"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/primary"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/filterNews"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        android:id="@+id/themedToggleButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:justifyContent="space_between"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView40"
+        app:toggle_selectAnimation="horizontal_window">
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_btnCornerRadius="2dp"
+            app:toggle_selectedBackgroundColor="@color/primary"
+            app:toggle_backgroundColor="@color/light"
+            app:toggle_text="     QUESTION     "
+
+            app:toggle_borderWidth="1dp"
+            app:toggle_borderColor="@color/darkGray"
+
+            app:toggle_selectedBorderWidth="1dp"
+            app:toggle_selectedBorderColor="@color/primary"
+            />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_btnCornerRadius="2dp"
+            app:toggle_selectedBackgroundColor="@color/primary"
+            app:toggle_backgroundColor="@color/light"
+            app:toggle_text="    SAFETY    "
+
+
+            app:toggle_borderWidth="1dp"
+            app:toggle_borderColor="@color/darkGray"
+
+            app:toggle_selectedBorderWidth="1dp"
+            app:toggle_selectedBorderColor="@color/primary"
+            />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            app:toggle_selectedBackgroundColor="@color/primary"
+            android:layout_height="38dp"
+            app:toggle_btnCornerRadius="2dp"
+
+
+            app:toggle_borderWidth="1dp"
+            app:toggle_borderColor="@color/darkGray"
+
+
+            app:toggle_selectedBorderWidth="1dp"
+            app:toggle_selectedBorderColor="@color/primary"
+
+
+
+            app:toggle_backgroundColor="@color/light"
+            app:toggle_text="    ALERT    " />
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/themedToggleButtonGroup">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/newsfeed"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/themedToggleButtonGroup" />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:id="@+id/justImg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/no_alerts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView40"
+        app:layout_constraintVertical_bias="0.3" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/spin_kit"
+        style="@style/Widget.App.CircularProgressIndicator"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView40"
+        app:layout_constraintVertical_bias="0.40" />
+    <TextView
+        android:id="@+id/justText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/w_bk"
+        android:text="No Alerts records found"
+        android:textColor="@color/primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/justImg"
+        app:layout_constraintStart_toStartOf="@+id/justImg"
+        app:layout_constraintTop_toBottomOf="@+id/justImg" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/newsShimmerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:animateLayoutChanges="true"
+        android:animationCache="true"
+        app:layout_constraintBottom_toBottomOf="@+id/swipeContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/themedToggleButtonGroup"
+        app:layout_constraintVertical_bias="0.0"
+        app:shimmer_repeat_mode="restart"
+        app:shimmer_shape="radial">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/news_shimmer" />
+
+            <include layout="@layout/news_shimmer" />
+
+            <include layout="@layout/news_shimmer" />
+
+            <include layout="@layout/news_shimmer" />
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/w_bk"
+        android:text="New alert"
+        android:textColor="@android:color/white"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_baseline_add_24"
+        app:iconTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

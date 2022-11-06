@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="circularProgressIndicatorStyle">@style/Widget.App.CircularProgressIndicator
+        </item>
+    </style>
+
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator</item>
+        <item name="trackThickness">15dp</item>
+        <item name="indicatorSize">25dp</item>
+    </style>
+
+    <style name="Widget.App.CircularProgressIndicator2" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator2</item>
+        <item name="trackThickness">15dp</item>
+        <item name="indicatorSize">15dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator2" parent="">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="MyCardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView.Cut
+        </item>
+    </style>
+
+    <style name="SlideToActView.Style">
+        <item name="android:elevation" tools:ignore="NewApi">6dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="AlertDialogTheme">
+        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    </style>
+
+
+    <style name="FalleryLight">
+
+        <item name="colorPrimary">@color/fallery_light_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+
+        <item name="fallery_background_color">@color/fallery_light_backgroundColor</item>
+        <item name="fallery_color_primary">@color/fallery_light_colorPrimary</item>
+        <item name="fallery_color_primary_dark">@color/fallery_light_colorPrimaryDark</item>
+        <item name="fallery_color_accent">@color/primary</item>
+        <item name="fallery_icon_tint_color">@color/fallery_light_iconTintColor</item>
+        <item name="fallery_toolbar_icon_tint_color">@color/fallery_light_toolbarIconTintColor
+        </item>
+        <item name="fallery_primary_text_color">@color/primary</item>
+        <item name="fallery_secondary_text_color">@color/primary</item>
+        <item name="fallery_hint_text_color">@color/primary</item>
+        <item name="fallery_place_holder_color">@color/white</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+        <item name="fallery_toolbar_text_color">@color/primary</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="fontFamily">@font/w_bk</item>
+    </style>
+
+
+    <style name="Alert.Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@color/mapbox_plugins_green</item>
+        <item name="rippleColor">@color/light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="CustomFont" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="fontFamily">@font/w_bk</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Alert.Button.Neutral" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+
+    <style name="mapbox_navigation_view_style" parent="Theme.AppCompat.NoActionBar">
+        <item name="navigationViewPrimary">@color/white</item>
+        <item name="navigationViewSecondary">@color/dark</item>
+        <item name="navigationViewAccent">@color/purple_700</item>
+    </style>
+
+
+    <style name="CustomNavigationViewDark">
+        <!-- The main turn banner view at the top of the screen -->
+        <!-- Background color of the banner -->
+        <item name="navigationViewBannerBackground">#FFFFFF</item>
+        <!-- Color for the primary label that displays the turn name -->
+        <item name="navigationViewBannerPrimaryText">#37516F</item>
+        <!-- Color for the secondary label that occasionally appears underneath the primary label -->
+        <item name="navigationViewBannerSecondaryText">#E637516F</item>
+        <!-- Primary color for the turn arrow icons-->
+        <item name="navigationViewBannerManeuverPrimary">#37516F</item>
+        <!-- Secondary color for the turn arrow icons (e.g. the line segment that forks off) -->
+        <item name="navigationViewBannerManeuverSecondary">#4D37516F</item>
+        <!-- Alternate background color for the dropdown list of upcoming steps -->
+        <item name="navigationViewListBackground">#FAFAFA</item>
+
+        <!-- The summary view along the bottom of the screen -->
+        <!-- Background color of the summary view -->
+        <item name="navigationViewPrimary">@color/white</item>
+        <!-- Tint color for icons in the summary view -->
+        <item name="navigationViewSecondary">@color/dark</item>
+        <!-- Accent color for elements such as the recenter button -->
+        <item name="navigationViewAccent">@color/purple_500</item>
+        <!-- Color for the main duration label in the summary view -->
+        <item name="navigationViewPrimaryText">#424242</item>
+        <!-- Color for the secondary distance and ETA label in the summary view -->
+        <item name="navigationViewSecondaryText">#424242</item>
+
+        <!-- Custom colors for progress bars displayed during navigation -->
+        <item name="navigationViewProgress">@color/red</item>
+        <item name="navigationViewProgressBackground">@color/red</item>
+
+        <!-- Custom colors for the route line and traffic -->
+        <!--   <item name="navigationViewRouteStyle">@style/CustomNavigationMapRoute</item>-->
+
+        <!-- Map style -->
+        <item name="navigationViewMapStyle">mapbox://styles/bipinnt/ckp9cn6f10zyk17pk5gnxpelu</item>
+
+        <!-- Other components -->
+        <!--        <item name="navigationViewDivider">#4882C6</item>-->
+        <!--        <item name="navigationViewRouteOverviewDrawable">#FAFAFA</item>-->
+        <!--        <item name="navigationViewDestinationMarker">@drawable/map_marker_light</item>-->
+        <!--        <item name="navigationViewLocationLayerStyle">@style/NavigationLocationLayerStyle</item>-->
+    </style>
+
+    <style name="ContentImageBadgeText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ContentImageBadgeTitle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ContentMainBadgeTitle">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TitleBadgeText">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TitleBadgeTitle">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="font_style">
+        <item name="fontFamily">@font/w_bk</item>
+
+    </style>
+
+    <style name="CustomText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/w_bd</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/main</item>
+        <item name="android:textColorSecondary">@color/gray2</item>
+    </style>
+
+
+    <style name="TabFont" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/w_bk</item>
+        <item name="android:textSize">18sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="SwipeButton">
+        <item name="android:fontFamily">@font/w_bk</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:fontFamily">@font/w_bk</item>
+        <item name="backgroundTint">@color/primary</item>
+    </style>
+
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottomsheet</item>
+    </style>
+
+
+    <style name="customSlideText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/w_bk</item>
+    </style>
+</resources>

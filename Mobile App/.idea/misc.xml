@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lebea/.gradle/caches/transforms-3/3f58fc88a8767eb47665e66e78814e7c/transformed/jetified-swipe-button-0.8.3/res/drawable/shape_button.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/.gradle/caches/transforms-3/3f58fc88a8767eb47665e66e78814e7c/transformed/jetified-swipe-button-0.8.3/res/drawable/shape_rounded.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/button_shape.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/button_shape2.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/driver_message.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_account.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_location_searching_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_question_mark_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_shield_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_square_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_call.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_cancel_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/ic_search_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/my_message.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/rounded_bottomsheet.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/rounded_shape.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/shape_sample_checked_toggle.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/shape_sample_scrolling_view_checked.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/shape_sample_scrolling_view_unchecked.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/drawable/shape_sample_unchecked_toggle.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_call_driver.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_driver_login.xml" value="0.22" />
+<<<<<<< HEAD:.idea/misc.xml
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_driver_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_initial.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+=======
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_driver_main.xml" value="0.22" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_initial.xml" value="0.22" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+>>>>>>> fde6697168447d7c42e48b5e839a94d7d7801546:Mobile App/.idea/misc.xml
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_message_driver.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_modal.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_my_account.xml" value="0.3810848400556328" />
+<<<<<<< HEAD:.idea/misc.xml
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_navigation.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_number.xml" value="0.22" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_order.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_set_locations.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_student_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_trips.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/arrival_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/arrive_dialog.xml" value="0.3333333333333333" />
+=======
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_navigation.xml" value="0.1859375" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_number.xml" value="0.22" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_order.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_set_locations.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_student_sign_up.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/activity_trips.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/arrival_dialog.xml" value="0.3333333333333333" />
+>>>>>>> fde6697168447d7c42e48b5e839a94d7d7801546:Mobile App/.idea/misc.xml
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/destination_bottom_sheet.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/drawer_layout_row_item.xml" value="0.5" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/driver_arrived_at_destination.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/driver_details_shimmer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/driver_layout.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/driver_main_bottomsheet.xml" value="0.22" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/driver_message.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/followers_bottom_sheet.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/fragment_navigation_drawer.xml" value="0.22747747747747749" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/list_item.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/location_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/locations_top_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/marker_view_bubble.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/marker_view_destination.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/marker_view_origin.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/modal_bottom_sheet.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/my_message.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/placeholder_data.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/rating_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/request_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/ride_details_bottom_sheet.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/row_nav_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/search_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/layout/search_suggestion_item.xml" value="0.25933609958506226" />
+        <entry key="..\:/Users/lebea/AndroidStudioProjects/EscortMe2/app/src/main/res/xml/network_security_config.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

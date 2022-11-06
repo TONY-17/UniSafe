@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#212638</color>
+    <color name="purple_500">#212638</color>
+    <color name="purple_700">#212638</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#fff6ea</color>
+    <color name="real_gray">#eeeeee</color>
+    <color name="text_color">#202536</color>
+    <color name="main">#044474</color>
+    <color name="customStatusBar">#f9c155</color>
+    <color name="red">#FF0000</color>
+    <color name="red_red">#E34234</color>
+    <color name="light_blue">#79e0fc</color>
+
+    <color name="background">#dddddd</color>
+    <color name="primary">#212638</color>
+    <color name="dark">#202536</color>
+    <color name="gray2">#3f4462</color>
+    <color name="light">#edf0f4</color>
+    <color name="shimmerColor">#B3B3B3</color>
+    <color name="darkGray">#D3D3D3</color>
+
+    <integer-array name="cardColors">
+        <item>@color/gray2</item>
+        <item>@color/main</item>
+        <item>@color/gray2</item>
+        <item>@color/customStatusBar</item>
+        <item>@color/gray2</item>
+        <item>@color/purple_500</item>
+    </integer-array>
+
+
+</resources>

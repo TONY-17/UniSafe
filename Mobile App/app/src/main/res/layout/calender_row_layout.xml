@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_calendar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:strokeColor="@color/darkGray"
+    app:strokeWidth="1dp"
+    android:layout_margin="8dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            tools:text="Hello"
+            android:id="@+id/tv_calendar_day"
+            android:fontFamily="@font/w_lt"
+            android:textColor="@color/primary"
+            style="@style/TextAppearance.MaterialComponents.Overline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            tools:text="Hello"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/w_bk"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:id="@+id/tv_calendar_date"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

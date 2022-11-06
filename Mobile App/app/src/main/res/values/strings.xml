@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">UniSafe</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoidHktMTciLCJhIjoiY2wxaTNqaTh4MWlwNjNjbG5hMGJ2cHR2NCJ9.q1bYq4WHP-Q4CvIUqe11nw</string>
+    <string name="CHANNEL_ID">sha6T3ujLshAbdB3</string>
+    <string name="publishable_key">7F3-ni22IQNWai2nHXG4fZvwwNtQDbcyQQk488VMcXgfrX7qGiJC2TsE1rRv-PS4svrAyxM0R3Udb76x6P8iBg</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="my_string_value">Welcome Back, <u>Login</u></string>
+    <string name="hyperTrack_key">7F3-ni22IQNWai2nHXG4fZvwwNtQDbcyQQk488VMcXgfrX7qGiJC2TsE1rRv-PS4svrAyxM0R3Udb76x6P8iBg</string>
+    <string name="privacy_policy">By signing up, you\'re agreeing to\nour <u>Terms</u> of use and <u>Privacy policy</u></string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password</string>
+
+
+
+    <string name="auth_token_twilio">127419c2d1e010d801c8a0fbb5afc8ed</string>
+    <string name="account_sid_twilio">AC188cb85acd482bd7a9a62b08aaa1c7dd</string>
+    <string name="phone_number_twilio">+12074924358</string>
+
+    // must delete these
+    <string name="order_id_mock" translatable="false"># 1234–5678</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">REQUESTS</string>
+    <string name="weight_mock" translatable="false">50 oz</string>
+    <string name="weight_badge" translatable="false">WEIGHT</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PLEDGE</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">REQUEST</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">News Feed</string>
+    <string name="title_notifications">Settings</string>
+    <string name="safety_timer">Safety Timer</string>
+    <string name="submit_tip">Submit Tip</string>
+    <string name="saved">SAFETY TIMER</string>
+    <string name="share_about_your_experience">Submit Tip</string>
+    <string name="compose">Compose</string>
+    <string name="content">The content is appropriate and does not promote violence or hate</string>
+    <string name="sos_history">SOS History</string>
+    <string name="trip_history">Trip History</string>
+    <string name="trusted_contacts">Trusted Contacts</string>
+    <string name="locations">Locations</string>
+    <string name="create_an_account_so_you_can_be_able_to_access_the_application">Create an account so you can be able to access the application.</string>
+    <string name="choose_category">Category</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="booking_details">Booking details</string>
+    <string name="where_from">Where from?</string>
+    <string name="user_location">User location</string>
+    <string name="where_do_you_want_to_go">Where to?</string>
+    <string name="mesibo_api_key">9qhc251ppejbpy0ga6mijqtuascr3ijm3d38041d7yscjqr0ob2v1rl75avr04eb</string>
+    <string name="publish_key">pub-c-873fa8f1-23ec-4682-99e5-34e01aee7b99</string>
+    <string name="subscribe_key">sub-c-b1a4fe2e-6d61-4c2e-9450-6190196b4e6c</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="place_picker">%1$s</string>
+    <string name="welcome_to_escort_me">Welcome to <u>UniSafe</u></string>
+    <string name="this_is_how_you_felt_about_the_driver"><b>Rating :</b></string>
+    <string name="keep_yourself_and_fellow_students_safe_npost_safety_related_information">Keep yourself and fellow students <u>safe</u>. Post <b>safety related</b> information</string>
+</resources>
