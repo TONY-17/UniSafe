@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  lang="en"
+>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      hs-webfonts="true"
+      href="https://fonts.googleapis.com/css?family=Lato|Lato:i,b,bi"
+    />
+    <title>Email </title>
+    <meta property="og:title" content="Email " />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      a {
+        text-decoration: underline;
+        color: inherit;
+        font-weight: bold;
+        color: #253342;
+      }
+
+      h1 {
+        font-size: 56px;
+      }
+
+      h2 {
+        font-size: 28px;
+        font-weight: 900;
+      }
+
+      p {
+        font-weight: 100;
+      }
+
+      td {
+        vertical-align: top;
+      }
+
+      #email {
+        margin: auto;
+        width: 600px;
+        background-color: white;
+      }
+
+      button {
+        font: inherit;
+        background-color: #212638;
+        border: none;
+        padding: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 900;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px #cbd6e2;
+      }
+
+      .subtle-link {
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #cbd6e2;
+      }
+    </style>
+  </head>
+
+  <body
+    bgcolor="#F5F8FA"
+    style="
+      width: 100%;
+      margin: auto 0;
+      padding: 0;
+      font-family: Lato, sans-serif;
+      font-size: 18px;
+      color: #33475b;
+      word-break: break-word;
+    "
+  >
+    <div id="email">
+      <table role="presentation" width="100%">
+        <tr>
+          <td bgcolor="#212638" align="center" style="color: white">
+            <img
+              alt="Logo"
+              src="https://i.postimg.cc/XqTR7HmM/unisafe-logo.png"
+              width="400px"
+              align="middle"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <table
+        role="presentation"
+        border="0"
+        cellpadding="0"
+        cellspacing="5px"
+        width="100%"
+        style="padding: 5px 5px 5px 10px"
+      >
+        <tr>
+          <td>
+            <h2>Welcome to UniSafe</h2>
+            <p>
+              Hello, <b>${username}</b>. Your help is required at ${organisation}. To use the mobile application, please provide the following credentials:</p>
+            <hr />
+            <p>Username : ${email}</p>
+            <p>Password : ${password}</p>
+          </td>
+        </tr>
+      </table>
+
+      <table
+        role="presentation"
+        border="0"
+        cellpadding="0"
+        cellspacing="5px"
+        width="100%"
+        style="padding: 5px 5px 5px 10px"
+      >
+        <tr>
+          <td>
+            <img
+              alt="App Login"
+              src="https://i.postimg.cc/q74d3FR4/app-login.jpg"
+              width="150px"
+              align="middle"
+             
+            />
+            <h2>Authentication</h2>
+            <p>
+              As a driver, you do not need to establish an account; simply use
+              the credentials shown above to access the application and accept
+              requests.
+            </p>
+          </td>
+
+          <td>
+            <img
+              alt="App Home"
+              src="https://i.ibb.co/d02NxG7/app-home.jpg"
+              width="150px"
+              align="middle" 
+            
+             
+            />
+            <h2>Assistance</h2>
+            <p>
+              Whenever students require your assistance (Escorting, Emergency
+              alerts etc..). You'll be notified in this screen in real-time.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><button>Tutorial</button></td>
+        </tr>
+      </table>
+
+      <! Banner Row -->
+      <table
+        role="presentation"
+        bgcolor="#EAF0F6"
+        width="100%"
+        style="margin-top: 50px"
+      >
+        <tr>
+          <td align="center" style="padding: 30px 30px">
+            <h2>Don't have the app ?</h2>
+            <p>
+              Currently, the driver app is only available for Android
+              smartphones. If you have an Android smartphone, click the link
+              below to get the app from the Google Play store.
+            </p>
+            <a href="#"> Download</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
