@@ -21,6 +21,8 @@ Backend application can be found here <a href="https://github.com/TONY-17/UniSaf
 <br />
 Mobile application can be found here <a href="https://github.com/TONY-17/UniSafe/tree/main/Mobile%20App"><strong>Explore the docs »</strong></a>
 <br />
+Play store website can be found here <a href="https://github.com/TONY-17/UniSafe-Website"><strong>Explore the docs »</strong></a>
+<br />
 
 ## SCREENSHOTS 📷
 <img src="/ddevices.png">
